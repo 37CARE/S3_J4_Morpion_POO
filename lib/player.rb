@@ -13,7 +13,7 @@ class Menu < Object
 	def greeting
 		puts ""
 		puts "************************".colorize(:green)
-        puts "******".colorize(:red) + "M.O.R.P.I.O.N".colorize(:yellow) + "******".colorize(:red)
+        puts "******".colorize(:red) + "M.O.R.P.I.O.N".colorize(:yellow) +"******".colorize(:red)
         puts "************************".colorize(:green)
 	end
 
