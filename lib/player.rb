@@ -12,17 +12,18 @@ class Menu < Object
 
 	def greeting
 		puts ""
-		puts "***********************"
-		puts "Welcome to Tic-Tac-Toe!"
+		puts "************************".colorize(:green)
+        puts "******".colorize(:red) + "M.O.R.P.I.O.N".colorize(:yellow) + "******".colorize(:red)
+        puts "************************".colorize(:green)
 	end
 
 	def p1_name
-		puts "Player 1 name?"
+		puts "Joueur 1 quel est ton blaze?"
 		@p1 = gets.chomp
 	end
 
 	def p2_name
-		puts "Player 2 name?"
+		puts "Joueur 2 c'est quoi ton blaze?"
 		@p2 = gets.chomp
 	end
 

@@ -1,5 +1,4 @@
 require 'bundler'
-require 'colorize'
 
 class Board < Object
 
